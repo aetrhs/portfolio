@@ -1,5 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+
+* {
+  font-family: 'Roboto Mono', monospace !important;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace !important;
+}
+
 .App {
   text-align: center;
+  font-family: 'Roboto Mono', monospace !important;
 }
 
 .App-logo {
@@ -35,4 +46,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+.project-card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px ;
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 16px;
+  padding: 16px 24px;
+  color: white;
+  background-color: rgba(71, 61, 139, 0.27);
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
 }
