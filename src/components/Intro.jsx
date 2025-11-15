@@ -15,14 +15,14 @@ function Intro() {
           delay={150}
           animateBy="words"
           direction="bottom"
-          className="text-3xl sm:text-4xl text-white font-bold tracking-wider lg:text-6xl z-10 relative mb-2"
+          className="text-3xl sm:text-4xl text-white !text-center font-bold tracking-wider lg:text-6xl z-10 relative mb-2 px-4"
         />
 
         <ShinyText
           text="SWE Student | Full Stack Developer"
           disabled={false}
           speed={3}
-          className='font-medium text-center z-10 relative'
+          className='font-medium text-left z-10 relative lg:text-center'
         />
       </div>
     </div>

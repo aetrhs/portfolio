@@ -21,10 +21,14 @@ function Header() {
         <div className="hidden sm:flex items-center justify-center p-4">
           <nav className='flex items-center justify-between gap-3 rounded-xl border-2 border-solid border-green-50 bg-white/10 py-4 px-6 backdrop-blur-lg'>
             <button onClick={() => scrollToSection('intro-id')} className='text-white hover:text-[#FDF5AA] transition-colors text-base'>Home</button>
+            <div className='w-0.5 h-4 bg-white/30'></div>
             <button onClick={() => scrollToSection('about-id')} className='text-white hover:text-[#FDF5AA] transition-colors text-base'>About</button>
-            <button onClick={() => scrollToSection('experience-id')} className='text-white hover:text-[#FDF5AA] transition-colors text-base'>Experience</button>
+            <div className='w-0.5 h-4 bg-white/30'></div>
             <button onClick={() => scrollToSection('skill-id')} className="text-white hover:text-[#FDF5AA] transition-colors text-base">Skills</button>
+            <div className='w-0.5 h-4 bg-white/30'></div>
             <button onClick={() => scrollToSection('project-id')} className="text-white hover:text-[#FDF5AA] transition-colors text-base">Projects</button>
+            <div className='w-0.5 h-4 bg-white/30'></div>
+            <button onClick={() => scrollToSection('experience-id')} className='text-white hover:text-[#FDF5AA] transition-colors text-base'>Experience</button>
           </nav>
         </div>
 
@@ -47,9 +51,9 @@ function Header() {
               <div className="flex flex-col">
                 <button onClick={() => scrollToSection('intro-id')} className='text-white hover:text-[#FDF5AA] transition-colors text-sm text-left py-4 px-4 border-b-2 border-white/50'>Home</button>
                 <button onClick={() => scrollToSection('about-id')} className='text-white hover:text-[#FDF5AA] transition-colors text-sm text-left py-4 px-4 border-b-2 border-white/50'>About</button>
-                <button onClick={() => scrollToSection('experience-id')} className='text-white hover:text-[#FDF5AA] transition-colors text-sm text-left py-4 px-4 border-b-2 border-white/50'>Experience</button>
                 <button onClick={() => scrollToSection('skill-id')} className="text-white hover:text-[#FDF5AA] transition-colors text-sm text-left py-4 px-4 border-b-2 border-white/50">Skills</button>
-                <button onClick={() => scrollToSection('project-id')} className="text-white hover:text-[#FDF5AA] transition-colors text-sm text-left py-4 px-4">Projects</button>
+                <button onClick={() => scrollToSection('project-id')} className="text-white hover:text-[#FDF5AA] transition-colors text-sm text-left py-4 px-4 border-b-2 border-white/50">Projects</button>
+                <button onClick={() => scrollToSection('experience-id')} className="text-white hover:text-[#FDF5AA] transition-colors text-sm text-left py-4 px-4">Experience</button>
               </div>
             </div>
           )}
